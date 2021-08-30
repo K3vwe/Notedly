@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A Social Note Application",
   "main": "src/index.js",
- 
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
